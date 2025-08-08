@@ -1,0 +1,15 @@
+
+body { font-family: sans-serif; background: #f4f4f4; color: #333; padding: 20px; }
+.dark-mode { background: #121212; color: #eee; }
+.question-box { background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+.dark-mode .question-box { background: #1e1e1e; }
+.answers label { display: block; margin: 8px 0; }
+button { margin: 10px 5px 0 0; padding: 10px 15px; }
+
+
+.dd-bank, .dd-targets { display:flex; flex-direction:column; gap:8px; margin:12px 0; }
+.dd-piece { border:1px dashed #888; padding:8px; border-radius:8px; cursor:grab; background:#fafafa; }
+.dark-mode .dd-piece { background:#222; border-color:#555; }
+.dd-slot { border:2px solid #aaa; padding:12px; border-radius:8px; min-height:44px; background:#fff; }
+.dark-mode .dd-slot { background:#1a1a1a; border-color:#444; color:#ddd; }
+.context pre { background:#222; color:#eee; padding:10px; border-radius:6px; overflow:auto; }
